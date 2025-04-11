@@ -8,19 +8,6 @@ body{
     font-family: 'Courier New', Courier, monospace;
     background: linear-gradient(to left bottom,rgb(6, 20, 150),rgb(176, 220, 235));
 }
-.homePage{
-    position: absolute;
-    top: 0;
-    font-size: 30px;
-    margin-top: 15px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    transition: all 0.4s ease-in-out;
-}
-.homePage:hover {
-    color: rgb(0, 0, 0);
-    scale: 1.1;
-}
 .quoteContainer{
     background-color: rgba(255,255,255,.2);
     box-shadow: 0 6px 10px rgba(0,0,0,.3);
