@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to left bottom,rgb(6, 20, 150),rgb(176, 220, 235));
+}
+.homePage{
+    position: absolute;
+    top: 0;
+    font-size: 30px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.4s ease-in-out;
+}
+.homePage:hover {
+    color: rgb(0, 0, 0);
+    scale: 1.1;
+}
+.quoteContainer{
+    background-color: rgba(255,255,255,.2);
+    box-shadow: 0 6px 10px rgba(0,0,0,.3);
+    padding: 30px;
+    border-radius: 15px;
+    width: 90%;
+    margin: 10px;
+    text-align: center;
+}
+.quoteHeading{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.quote{
+    font-size: 30px;
+    font-weight: 600;
+}
+.author{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+.btn{
+    width: 300px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: rgba(255,255,255,.3);
+    border-color: rgba(255,255,255,.6);
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out;
+}
+.btn:hover{
+    background-color: rgba(255,255,255,.6);
+    box-shadow: 0 4px 4px rgba(0,0,0,.3);
+    color: red;
+}
+
+.englishContainer{
+    background-color: rgba(255,255,255, .3);
+    padding: 28px;
+    border-radius: 7px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.3);
+    width: 90%;
+    margin: 10px;
+    max-width: 450px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.englishHead{
+    color: white;
+    font-size: 28px;
+}
+.englishInput{
+    height: 53px;
+    width: 300px;
+    background-color: rgba(255,255,255, .6);
+    border-color: rgba(255,255,255, .4);
+    font-size: 16px;
+    padding: 0 42px;
+    border-radius: 5px;
+}
+.meaning-container{
+    display: none;
+}
